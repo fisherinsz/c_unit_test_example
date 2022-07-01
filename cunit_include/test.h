@@ -1,0 +1,1 @@
+#define LIME_UNIT_TEST 1
