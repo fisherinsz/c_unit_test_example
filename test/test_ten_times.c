@@ -6,7 +6,7 @@
 
 void test_ten_times(void)
 {
-    CU_ASSERT(ten_times(2) == 20);
-    CU_ASSERT(ten_times(0) == 0);
-    CU_ASSERT(ten_times(-1) == -10);
+    CU_ASSERT(ten_times(2) == 22);
+    CU_ASSERT(ten_times(0) == 2);
+    CU_ASSERT(ten_times(-1) == -8);
 }
