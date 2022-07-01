@@ -3,3 +3,9 @@ In unit test, the hardest work is to 'Mock' functions to isolated the tests. For
 This project demo how to do mock in this way. Put your commits, if you have any good idea.
 # How to run
 download it, and run ./run.sh 
+# Modify and Fix the test
+In file ten.c, try to do the following changes, and rerun the  test by:  ./run.sh -t
+  // return j*10;
+  return add2(j*10);
+What happend? some test faild, why fail? how to fix it?
+Why the test on foo (test_foo) not fail?
