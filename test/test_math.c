@@ -19,6 +19,7 @@ int __wrap_ten_times(int i)
 void test_foo(void)
 {
   moke_ten_times = 1;
+  // mock("ten_times","cj1",30);
   CU_ASSERT(foo(2) == 201);
   CU_ASSERT(foo(0) == 1);
   CU_ASSERT(foo(-1) == -99);
